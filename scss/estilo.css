@@ -99,6 +99,7 @@ header nav a:hover {
   text-align: center;
 }
 
+<<<<<<< HEAD
 h1 {
   padding: 1em;
   font-size: xx-large;
@@ -165,6 +166,8 @@ button {
           box-shadow: 3px 3px 3px #D3D3D3 105, 105, 105;
 }
 
+=======
+>>>>>>> c74808bee9f5fbafe246c98959266909dce7261b
 footer {
   background-color: #660708;
   height: 20%;
