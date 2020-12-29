@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
 /*se usa font-family: 'Caveat', cursive;*/
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
@@ -9,49 +8,64 @@
 /*font-family: 'Sacramento', cursive;*/
 body {
   margin: 0;
+  padding: 0;
   font-family: "Great Vibes", cursive;
 }
 
 header {
+  background-color: #660708;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 20;
   position: sticky;
   top: 0;
-  z-index: 20;
-  width: 100%;
-  background-color: #660708;
-  display: flex;
-  justify-content: space-around;
-}
-header .logo {
-  width: auto;
-  height: 5em;
-  margin-left: 0%;
 }
 header .titulo {
-  font-family: "Satisfy", cursive;
-  font-size: 1.6em;
-  color: white;
-  text-shadow: 1px 2px black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
 }
-header ul {
-  list-style: none;
-  padding: 1em;
+header img {
+  max-height: 7vw;
+  min-height: 7vw;
+  filter: invert(100%);
 }
-header ul li {
-  background-color: #FFFFFF;
-  font-size: 1.7em;
-  display: inline;
-  margin: 0.3em;
-  padding: 0.3em;
-  color: #660708;
-  border: 0.1em solid white;
-  border-radius: 0.8em;
+header h1 {
+  color: #F5F3F4;
+  font-family: satisfy;
+  font-size: 40pt;
+  font-weight: 550;
 }
-header ul li a {
+header nav {
+  width: 50%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header nav a {
   text-decoration: none;
+  font-family: Kaushan script;
+  font-size: 14pt;
+  background-color: #F5F3F4;
+  color: #BA181B;
+  padding: 1vw 2.5vw 1vw 2.5vw;
+  margin: 0.5vw;
+  border-radius: 1vw;
+  box-shadow: 2px 2px 5px grey;
 }
-header ul li:hover {
-  text-shadow: 1px 1px #660708;
-  border-color: black;
+header nav a:hover {
+  background-color: #BA181B;
+  padding: 1vw 2.5vw 1vw 2.5vw;
+  color: #F5F3F4;
+  text-align: center;
 }
 
 .banner {
@@ -127,58 +141,60 @@ header ul li:hover {
   border-radius: 100%;
 }
 
-/*# sourceMappingURL=estilo.css.map */
-=======
-h1 {
-    padding: 1em;
-    font-size: xx-large;
-}
-
-section {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-
-
-}
-
 .contenedor1 {
-    padding-left: 3em;
-    padding-right: 3em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
+  padding-left: 3em;
+  padding-right: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-
- .caja1 {
-    max-width:25%;
-    margin-top: 1em;
-    padding: 1em;
-    font-size: 12pt;
-    background-color: white;
-    flex-direction: column;
-    align-self: flex-start;
-    box-shadow: 5px 3px 5px rgb(105, 105, 105);
-    border-radius: 1em;
+.caja1 {
+  max-width: 25%;
+  margin-top: 1em;
+  padding: 1em;
+  font-size: 12pt;
+  background-color: #F5F3F4;
+  flex-direction: column;
+  align-self: flex-start;
+  box-shadow: 5px 3px 5px dimgray;
+  border-radius: 1em;
 }
-
 .caja1 img {
-    width: 100%;
+  width: 100%;
+}
+.caja1 button {
+  max-width: 90%;
+  background-color: #F5F3F4;
+  padding: 1em;
+  border: solid #5a5a5a 1px;
+  border-radius: 0.3em;
+  font-family: Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 10pt;
+  box-shadow: 3px 3px 3px #D3D3D3 105, 105, 105;
 }
 
-button {
-    max-width: 90%;
-    background-color: white;
-    padding:1em;
-    border:solid rgb(90, 90, 90) 1px;
-    border-radius: 0.3em;
-    font-family: Geneva, Tahoma, sans-serif;
-    font-weight: 600;
-    font-size: 10pt;
-    box-shadow: 3px 3px 3px rgb(105, 105, 105);
-
+footer {
+  background-color: #660708;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #F5F3F4;
 }
->>>>>>> abceed99c3b3d1e19f1c72a5d900e5cd8fe7e3ab
+footer .rrss {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer .rrss img {
+  height: 4vw;
+  filter: invert(90%);
+  padding: 1vw;
+}
+
+/*# sourceMappingURL=estilo.css.map */
