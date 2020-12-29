@@ -99,12 +99,6 @@ header nav a:hover {
   text-align: center;
 }
 
-<<<<<<< HEAD
-h1 {
-  padding: 1em;
-  font-size: xx-large;
-}
-
 section {
   text-align: center;
   display: -webkit-box;
@@ -114,6 +108,11 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+section h1 {
+  padding: 1em;
+  font-size: xx-large;
 }
 
 .contenedor1 {
@@ -153,7 +152,7 @@ section {
   width: 100%;
 }
 
-button {
+.caja1 button {
   max-width: 90%;
   background-color: #F5F3F4;
   padding: 1em;
@@ -166,8 +165,6 @@ button {
           box-shadow: 3px 3px 3px #D3D3D3 105, 105, 105;
 }
 
-=======
->>>>>>> c74808bee9f5fbafe246c98959266909dce7261b
 footer {
   background-color: #660708;
   height: 20%;
@@ -207,9 +204,5 @@ footer .rrss img {
   -webkit-filter: invert(90%);
           filter: invert(90%);
   padding: 1vw;
-}
-
-section {
-  height: 60%;
 }
 /*# sourceMappingURL=estilo.css.map */
