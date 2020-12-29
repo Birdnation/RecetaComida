@@ -1,0 +1,25 @@
+$color-burdeo: #660708;
+$color-rojo: #BA181B;
+$color-blanco: #F5F3F4;
+$color-gris: #D3D3D3;
+
+header {
+    background-color: $color-burdeo;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    img {
+        height: 100%;
+    }
+    nav {
+        height: 80%;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
