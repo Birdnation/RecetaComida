@@ -3,39 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilo.css">
-    <title>Recetas de cocinas</title>
+    <link rel="stylesheet" href="/scss/estilo.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Satisfy&display=swap" rel="stylesheet">  
+    <title>Recetas Chilenas</title>
 </head>
 <body>
     <header>
-        <img class="logo" src="./img/logo klocker.webp" alt="">
-        <div class="titulo"><h2>Recetas Chilenas</h2></div>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Contacto</a></li>
-            <li><a href="">Nosotros</a></li>
-            <li><a href="">Login</a></li>
-        </ul>
+        <img src="img/logo.png" alt="recetas">
+        <h1>Recetas Chilenas</h1>
+        </div>
+        <nav>
+        <a href="/index.html">Home</a>
+        <a href="#">Contacto</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Login</a>
+        </nav>
     </header>
     <section class="banner">
-        <ul class="carrusel">
-            <li id="foto1"><img src="./img/fotobanner1.jpg" alt=""><div><h1>prueba</h1></div></li>
-            <li id="foto2"><img src="./img/fotobanner2.jpg" alt=""></li>
-            <li id="foto3"><img src="./img/fotobanner3.jpg" alt=""></li>
-            <li id="foto4"></li>
-        </ul>
+      <ul class="carrusel">
+          <li id="foto1"><img src="./img/fotobanner1.jpg" alt=""><div><h1>prueba</h1></div></li>
+          <li id="foto2"><img src="./img/fotobanner2.jpg" alt=""></li>
+          <li id="foto3"><img src="./img/fotobanner3.jpg" alt=""></li>
+          <li id="foto4"></li>
+      </ul>
 
-        <ul class="menu">
-            <li>
-              <a href="#foto1">1</a>
-            </li>
-            <li>
-              <a href="#foto2">2</a>
-            </li>
-             <li>
-              <a href="#foto3">3</a>
-            </li>
-          </ul>
-    </section>
+      <ul class="menu">
+          <li>
+            <a href="#foto1">1</a>
+          </li>
+          <li>
+            <a href="#foto2">2</a>
+          </li>
+           <li>
+            <a href="#foto3">3</a>
+          </li>
+        </ul>
+  </section>
+    <section id="Recetas">
+        <h1 class="titulo">Recetas</h1>
+        <div class="contenedor1">
+            <div class="caja1">
+                <h3>Porotos Granados</h3>
+                <img class="imagen1" src="img/porotos.jpg" alt="porotos granados">
+                <button class="button1"><a href="receta1.html">Porotos Granados</a></button>
+            </div>
+            <div class="caja1">
+                <h3>Pastel de Choclo</h3>
+                <img class="imagen1" src="img/pastel.jpg" alt="pastel">
+                <button class="button1"><a href="receta2.html">Pastel de Choclo</a></button>
+            </div>
+            <div class="caja1">
+                <h3>Cazuela de Ave</h3>
+                <img class="imagen1" src="img/cazuela_de_ave.jpg" alt="cazuela">
+                <button class="button1"><a href="receta3.html">Cazuela de Ave</a></button>
+            </div>
+        </div>
+    <footer>
+        <h3>Síguenos en nuestras redes sociales</h3>
+        <div class="rrss">
+            <a href="https://www.facebook.com/cocinaschilena/"><img class="fb" src="img/FB.png"></a>
+            <a href="https://www.instagram.com/recetaschilenascl/"><img class="ig" src="img/IG.png"></a>
+            <a href="https://twitter.com/cocina_chilena?lang=es"><img class="tw" src="img/twitter.png"></a>
+        </div>
+        <p>© Todos los derechos reservados Recetas Chilenas 2021</p>
+        </footer>    
+
 </body>
 </html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
 /*se usa font-family: 'Caveat', cursive;*/
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
@@ -127,3 +128,57 @@ header ul li:hover {
 }
 
 /*# sourceMappingURL=estilo.css.map */
+=======
+h1 {
+    padding: 1em;
+    font-size: xx-large;
+}
+
+section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.contenedor1 {
+    padding-left: 3em;
+    padding-right: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+ .caja1 {
+    max-width:25%;
+    margin-top: 1em;
+    padding: 1em;
+    font-size: 12pt;
+    background-color: white;
+    flex-direction: column;
+    align-self: flex-start;
+    box-shadow: 5px 3px 5px rgb(105, 105, 105);
+    border-radius: 1em;
+}
+
+.caja1 img {
+    width: 100%;
+}
+
+button {
+    max-width: 90%;
+    background-color: white;
+    padding:1em;
+    border:solid rgb(90, 90, 90) 1px;
+    border-radius: 0.3em;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 10pt;
+    box-shadow: 3px 3px 3px rgb(105, 105, 105);
+
+}
+>>>>>>> abceed99c3b3d1e19f1c72a5d900e5cd8fe7e3ab
