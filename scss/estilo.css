@@ -88,6 +88,8 @@ header nav a {
   padding: 1vw 2.5vw 1vw 2.5vw;
   margin: 0.5vw;
   border-radius: 1vw;
+  -webkit-box-shadow: 2px 2px 5px grey;
+          box-shadow: 2px 2px 5px grey;
 }
 
 header nav a:hover {
@@ -99,7 +101,24 @@ header nav a:hover {
 
 footer {
   background-color: #660708;
-  height: 10vw;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #F5F3F4;
+}
+
+footer .rrss {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,32 +126,15 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-footer .fb {
+footer .rrss img {
   height: 4vw;
-  -webkit-filter: invert(90%);
-          filter: invert(90%);
-  padding: 1vw;
-}
-
-footer .ig {
-  height: 4vw;
-  padding: 1vw;
-  -webkit-filter: invert(90%);
-          filter: invert(90%);
-}
-
-footer .tw {
-  height: 3.9vw;
   -webkit-filter: invert(90%);
           filter: invert(90%);
   padding: 1vw;
