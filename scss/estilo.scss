@@ -130,7 +130,7 @@ section {
 
 footer {
     background-color: $color-burdeo;
-    height: 20%;
+    height: 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,10 +145,92 @@ footer {
     flex-wrap:wrap;
 
         img {
+
         height: 4vw;
         filter:invert(90%);
-        padding:1vw;
+        padding: 0vw 1vw 0vw 1vw;
     }
 
 } }
 
+/* Pagina Nosotros */
+
+.nosotros {
+    width:100%;
+    font-family: Satisfy;
+    padding-top: 2vw 0 2vw 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    h1 {
+        font-size: 30pt;
+        padding:0;
+    }
+
+    img {
+        padding: 0;
+        width: 50%px;
+
+    }
+
+    p {
+        font-size: 16pt;
+        padding-top: 3vw;
+        width: 45%;
+        text-align: justify;
+    }
+}
+
+/* Página Contacto */
+
+.formulario {
+
+    padding-left: 4vw;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    
+
+    h1 {
+        font-family: Satisfy;
+    }
+    h3 {
+        font-family: Kaushan script;
+        font-weight: 500;
+    }
+
+    p {
+        font-family: kaushan script;
+        font-size: 14pt;
+        width: 200px;
+
+    }
+
+    input {
+
+        width: 30vw;
+        height: 2vw;
+    }
+
+    textarea {
+
+        width: 30vw;
+        height: 5vw;
+    }
+
+    button {
+        background-color: $color-rojo;
+        color: $color-blanco;
+        height: 5vw;
+        
+
+    }
+
+}
+
+.aviso {
+
+    font-family: kaushan script;
+    padding-left: 4vw;
+}

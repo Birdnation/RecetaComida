@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -167,7 +168,7 @@ section h1 {
 
 footer {
   background-color: #660708;
-  height: 20%;
+  height: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -203,6 +204,89 @@ footer .rrss img {
   height: 4vw;
   -webkit-filter: invert(90%);
           filter: invert(90%);
-  padding: 1vw;
+  padding: 0vw 1vw 0vw 1vw;
+}
+
+/* Pagina Nosotros */
+.nosotros {
+  width: 100%;
+  font-family: Satisfy;
+  padding-top: 2vw 0 2vw 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nosotros h1 {
+  font-size: 30pt;
+  padding: 0;
+}
+
+.nosotros img {
+  padding: 0;
+  width: 50%px;
+}
+
+.nosotros p {
+  font-size: 16pt;
+  padding-top: 3vw;
+  width: 45%;
+  text-align: justify;
+}
+
+/* Página Contacto */
+.formulario {
+  padding-left: 4vw;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.formulario h1 {
+  font-family: Satisfy;
+}
+
+.formulario h3 {
+  font-family: Kaushan script;
+  font-weight: 500;
+}
+
+.formulario p {
+  font-family: kaushan script;
+  font-size: 14pt;
+  width: 200px;
+}
+
+.formulario input {
+  width: 30vw;
+  height: 2vw;
+}
+
+.formulario textarea {
+  width: 30vw;
+  height: 5vw;
+}
+
+.formulario button {
+  background-color: #BA181B;
+  color: #F5F3F4;
+  height: 5vw;
+}
+
+.aviso {
+  font-family: kaushan script;
+  padding-left: 4vw;
 }
 /*# sourceMappingURL=estilo.css.map */
