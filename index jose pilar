@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Satisfy&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <title>Recetas Chilenas</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="recetas">
+        <h1>Recetas Chilenas</h1>
+        </div>
+        <nav>
+        <a href="/index.html">Home</a>
+        <a href="/contacto.html">Contacto</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Login</a>
+        </nav>
+    </header>
+    <section class="banner">
+      <ul class="carrusel">
+          <li id="foto1"><img src="./img/fotobanner1.jpg" alt=""><div><h1>prueba</h1></div></li>
+          <li id="foto2"><img src="./img/fotobanner2.jpg" alt=""></li>
+          <li id="foto3"><img src="./img/fotobanner3.jpg" alt=""></li>
+          <li id="foto4"></li>
+      </ul>
+
+      <ul class="menu">
+          <li>
+            <a href="#foto1">1</a>
+          </li>
+          <li>
+            <a href="#foto2">2</a>
+          </li>
+           <li>
+            <a href="#foto3">3</a>
+          </li>
+        </ul>
+  </section>
+
+    <section id="Recetas">
+        
+        <h1 style="text-align:center;font-size:200%;" class="titulo">Recetas</h1>
+        <div class="contenedor1">
+            <div class="caja1">
+                <h3 style="text-align:center;font-size:150%; " >Porotos Granados</h3>
+                <img class="imagen1" src="img/porotos.jpg" alt="porotos granados">
+                <div style="text-align:center;">
+                <button  class="button1"><a  href="receta1.html" target="_blank">Porotos Granados</a></button>
+            </div>
+        </div>
+            <div class="caja1">
+                <h3  style="text-align:center;font-size:150%; " >Pastel de Choclo</h3>
+                <img class="imagen1" src="img/pastel.jpg" alt="pastel">
+                <div style="text-align:center;">
+                <button class="button1"><a href="receta2.html" target="_blank">Pastel de Choclo</a></button>
+            </div>
+        </div>
+            <div class="caja1">
+                <h3 style="text-align:center;font-size:150%;" >Cazuela de Ave</h3>
+                <img class="imagen1" src="img/cazuela_de_ave.jpg" alt="cazuela">
+                <div style="text-align:center;">
+                <button class="button1"><a href="receta3.html" target="_blank">Cazuela de Ave</a></button>
+            </div>
+        </div>
+    </div>
+
+
+    <h2 style="text-align:center;font-size:200%;" >Tradiciones de Comida en Chile</h2>
+
+    <table style="width:100%">
+    
+    <tr>
+        <td> <img class="imagen1" src="img/porotos.jpg" alt="porotos granados">       </td>
+        <td style="font-size:150%;" > Los porotos granados, tal como los conocemos, tiene su origen en la cocina campesina del la zona centro-sur de Chile, su nombre proviene de la presentación o estado de madurez que tiene el capi (vaina) del poroto al momento de cosecharlo. </td>
+      </tr>
+      
+      <tr>
+        <td><img class="imagen1" src="img/cazuela_de_ave.jpg" alt="cazuela">     </td>
+        <td style="font-size:150%;" > La cazuela de ave, tal como la conocemos, tiene su origen en la zona central de Chile, remontando a los tiempo de la conquista española, por la mixtura de sus ingredientes, tanto los de nuestra tierra, como la papa, el zapallo y la carne de vacuno, como los ingredientes del viejo continente, como el trigo y especias diversas, siendo un infaltable en la mesa de los chilenos. </td>
+      </tr>
+      </table>
+
+
+        <section>
+            <div class="centrado">
+                <div style="text-align:center;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lxKV_hajrzI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>    
+            <h1 style="text-align:center;font-size:200%;" >Receta del mes: Pastel de Choclo</h1>
+            <p style="text-align:center;font-size:150%;" >En diciembre, ha salido elegido como la receta del mes, el pastel de choclo, de acuerdo a las votaciones de nuestros seguidores de redes sociales, a lo largo del territorio nacional.</p>
+            </div>
+        
+        </section>
+
+
+    <footer>
+        <h3 style="font-size:150%;" >Síguenos en nuestras redes sociales</h3>
+        <div class="rrss">
+            <a href="https://www.facebook.com/cocinaschilena/"><img class="fb" src="img/FB.png"></a>
+            <a href="https://www.instagram.com/recetaschilenascl/"><img class="ig" src="img/IG.png"></a>
+            <a href="https://twitter.com/cocina_chilena?lang=es"><img class="tw" src="img/twitter.png"></a>
+        </div>
+        <p>© Todos los derechos reservados Recetas Chilenas 2021</p>
+        </footer>    
+
+</body>
+
+</html>
