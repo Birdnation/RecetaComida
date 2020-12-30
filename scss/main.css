@@ -1,0 +1,402 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+/*se usa font-family: 'Caveat', cursive;*/
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+/*font-family: 'Satisfy', cursive;*/
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+/*font-family: 'Great Vibes', cursive;*/
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+/*font-family: 'Sacramento', cursive;*/
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+/* font-family: 'Kaushan Script'; */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Great Vibes', cursive;
+}
+
+header {
+  background-color: #660708;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 20;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header .titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header img {
+  max-height: 7vw;
+  min-height: 7vw;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+header h1 {
+  color: #FFFFFF;
+  font-family: satisfy;
+  font-size: 40pt;
+  font-weight: 550;
+  margin: 1vw 0 1vw 0;
+}
+
+header nav {
+  width: 50%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav a {
+  text-decoration: none;
+  font-family: Kaushan script;
+  font-size: 14pt;
+  background-color: #FFFFFF;
+  color: #BA181B;
+  padding: 1vw 2.5vw 1vw 2.5vw;
+  margin: 0.5vw;
+  border-radius: 1vw;
+  -webkit-box-shadow: 2px 2px 5px grey;
+          box-shadow: 2px 2px 5px grey;
+}
+
+header nav a:hover {
+  background-color: #BA181B;
+  padding: 1vw 2.5vw 1vw 2.5vw;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.banner {
+  margin: auto;
+  max-width: 1900px;
+}
+
+.banner ul, .banner li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.banner .carrusel {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 350px;
+  z-index: 9;
+}
+
+.banner .carrusel li {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  background: #fff;
+  height: 400px;
+  text-align: center;
+}
+
+.banner .carrusel li img {
+  height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banner .carrusel li div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.banner .carrusel li div h1 {
+  font-size: 300%;
+  font-family: 'Caveat', cursive;
+}
+
+.banner .carrusel li:first-child {
+  opacity: 1;
+}
+
+.banner .carrusel li:target {
+  opacity: 1;
+}
+
+.banner .menu {
+  text-align: center;
+  position: relative;
+  z-index: 12;
+}
+
+.banner .menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+.banner .menu li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(128, 128, 128, 0.6);
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+.contenedor1 {
+  padding-left: 3em;
+  padding-right: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.caja1 {
+  max-width: 25%;
+  margin-top: 1em;
+  padding: 1em;
+  font-size: 12pt;
+  background-color: #FFFFFF;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-shadow: 5px 3px 5px dimgray;
+          box-shadow: 5px 3px 5px dimgray;
+  border-radius: 1em;
+}
+
+.caja1 img {
+  width: 100%;
+}
+
+.caja1 button {
+  max-width: 90%;
+  background-color: #FFFFFF;
+  padding: 1em;
+  border: solid #5a5a5a 1px;
+  border-radius: 0.3em;
+  font-family: Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 10pt;
+  -webkit-box-shadow: 3px 3px 3px #B1A7A6;
+          box-shadow: 3px 3px 3px #B1A7A6;
+}
+
+footer {
+  background-color: #660708;
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+
+footer h3 {
+  font-family: satisfy;
+  font-size: x-large;
+  font-weight: 300;
+  margin: 0.5vw 1vw 0vw 1vw;
+}
+
+footer p {
+  font-size: large;
+  margin: 0vw 1vw 0.5vw 1vw;
+}
+
+footer .rrss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .rrss img {
+  max-height: 3.5vw;
+  -webkit-filter: invert(90%);
+          filter: invert(90%);
+  padding: 0vw 1vw 0vw 1vw;
+  margin: 0vw;
+}
+
+/* Pagina Nosotros */
+.nosotros {
+  width: 100%;
+  font-family: Satisfy;
+  padding-top: 2vw 0 2vw 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nosotros h1 {
+  font-size: 30pt;
+  padding: 0;
+}
+
+.nosotros img {
+  padding: 0;
+  width: 50%px;
+}
+
+.nosotros p {
+  font-size: 16pt;
+  padding-top: 3vw;
+  width: 45%;
+  text-align: justify;
+}
+
+/* Página Contacto */
+.formulario {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formulario h1 {
+  font-family: Satisfy;
+}
+
+.formulario h3 {
+  font-family: Kaushan script;
+  font-weight: 500;
+}
+
+.formulario input {
+  width: 30vw;
+  height: 2vw;
+}
+
+.formulario textarea {
+  width: 30vw;
+  height: 5vw;
+}
+
+.formulario button {
+  background-color: #FFFFFF;
+  color: #0B090A;
+  height: 5vw;
+}
+
+.formulario form {
+  width: 31%;
+  padding: 1vw;
+  border: solid 2px black;
+  border-radius: 2px;
+  background-color: #d3aaab;
+}
+
+.formulario form p {
+  font-family: kaushan script;
+  font-size: 14pt;
+  width: 200px;
+}
+
+.aviso {
+  font-family: kaushan script;
+  padding-left: 4vw;
+}
+/*# sourceMappingURL=main.css.map */
