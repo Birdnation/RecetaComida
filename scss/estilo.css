@@ -150,10 +150,14 @@ section h1 {
 }
 
 .caja1 img {
-  width: 100%;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.5rem;
 }
 
 .caja1 button {
+  margin: 0 auto;
   max-width: 90%;
   background-color: #F5F3F4;
   padding: 1em;
@@ -288,5 +292,16 @@ footer .rrss img {
 .aviso {
   font-family: kaushan script;
   padding-left: 4vw;
+}
+
+/* Páginas Receta */
+.centrado iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+.centrado p {
+  text-align: center;
+  justify-content: center;
 }
 /*# sourceMappingURL=estilo.css.map */
