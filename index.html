@@ -11,6 +11,7 @@
     <title>Recetas Chilenas</title>
 </head>
 <body>
+    <!-- ------------------Header------------------------ -->
     <header>
         <img src="img/logo.png" alt="recetas">
         <h1>Recetas Chilenas</h1>
@@ -18,13 +19,14 @@
         <nav>
         <a href="/index.html">Home</a>
         <a href="/contacto.html">Contacto</a>
-        <a href="#">Nosotros</a>
+        <a href="/nosotros.html">Nosotros</a>
         <a href="#">Login</a>
         </nav>
     </header>
+    <!-- ------------------Banner---------------------------->
     <section class="banner">
         <ul class="carrusel">
-            <li id="foto1"><img src="./img/fotobanner1.jpg" alt=""><div><h1>prueba</h1></div></li>
+            <li id="foto1"><img src="./img/fotobanner1.jpg" alt=""></li>
             <li id="foto2"><img src="./img/fotobanner2.jpg" alt=""></li>
             <li id="foto3"><img src="./img/fotobanner3.jpg" alt=""></li>
             <li id="foto4"></li>
@@ -41,52 +43,51 @@
             </li>
         </ul>
     </section>
+    <!-- ------------------------------Recetas------------------------- -->
     <section id="Recetas">
         <h1 class="titulo">Recetas</h1>
         <div class="contenedor1">
             <div class="caja1">
-                <h3>Porotos Granados</h3>
-                <img class="imagen1" src="img/porotos.jpg" alt="porotos granados">
-                <button class="button1"><a href="receta1.html" target="_blank">Porotos Granados</a></button>
+                <h2>Porotos Granados</h2>
+                <img class="imagen1" src="img/porotosconpilco.jpg" alt="porotos granados">
+                <button class="button1"><a href="receta1.html">Porotos Granados</a></button>
             </div>
             <div class="caja1">
-                <h3>Pastel de Choclo</h3>
+                <h2>Pastel de Choclo</h2>
                 <img class="imagen1" src="img/pastel.jpg" alt="pastel">
-                <button class="button1"><a href="receta2.html" target="_blank">Pastel de Choclo</a></button>
+                <button class="button1"><a href="receta2.html">Pastel de Choclo</a></button>
             </div>
             <div class="caja1">
-                <h3>Cazuela de Ave</h3>
+                <h2>Cazuela de Ave</h2>
                 <img class="imagen1" src="img/cazuela_de_ave.jpg" alt="cazuela">
-                <button class="button1"><a href="receta3.html" target="_blank">Cazuela de Ave</a></button>
+                <button class="button1"><a href="receta3.html">Cazuela de Ave</a></button>
             </div>
         </div>
-        <section class="tradiciones">
-        <h2 style="text-align:center;font-size:200%;" >Tradiciones de Comida en Chile</h2>
+    </section>
+        <!-- -----------------------Tradiciones---------------------- -->
+    <section class="tradiciones">
+        <h1>Tradiciones de Comida en Chile</h1>
+        <div class="tabla">
+            <div class="tradicion">
+                    <img class="imagen1" src="img/porotos-granados.jpg" alt="porotos granados">
+                    <p> Los porotos granados, tal como los conocemos, tiene su origen en la cocina campesina del la zona centro-sur de Chile, su nombre proviene de la presentación o estado de madurez que tiene el capi (vaina) del poroto al momento de cosecharlo. </p>
+                </div>
+                <div class="tradicion">
+                    <p> La cazuela de ave, tal como la conocemos, tiene su origen en la zona central de Chile, remontando a los tiempo de la conquista española, por la mixtura de sus ingredientes, tanto los de nuestra tierra, como la papa, el zapallo y la carne de vacuno, como los ingredientes del viejo continente, como el trigo y especias diversas, siendo un infaltable en la mesa de los chilenos. </p>
+                    <img class="imagen1" src="img/cazuela-de-pollo.jpg" alt="cazuela"> 
+                </div>
+            
+        </div>
+    </section>
+<!-- -----------------------------Receta del mes---------------------------- -->
 
-    <table style="width:100%">
-    
-    <tr>
-        <td> <img class="imagen1" src="img/porotos.jpg" alt="porotos granados">       </td>
-        <td style="font-size:150%;" > Los porotos granados, tal como los conocemos, tiene su origen en la cocina campesina del la zona centro-sur de Chile, su nombre proviene de la presentación o estado de madurez que tiene el capi (vaina) del poroto al momento de cosecharlo. </td>
-      </tr>
-      
-      <tr>
-        <td><img class="imagen1" src="img/cazuela_de_ave.jpg" alt="cazuela">     </td>
-        <td style="font-size:150%;" > La cazuela de ave, tal como la conocemos, tiene su origen en la zona central de Chile, remontando a los tiempo de la conquista española, por la mixtura de sus ingredientes, tanto los de nuestra tierra, como la papa, el zapallo y la carne de vacuno, como los ingredientes del viejo continente, como el trigo y especias diversas, siendo un infaltable en la mesa de los chilenos. </td>
-      </tr>
-      </table>
+    <section class="recetadelmes">
+        <h1>Receta del mes: Pastel de Choclo</h1>
+        <iframe src="https://www.youtube.com/embed/lxKV_hajrzI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p style="text-align:center;font-size:150%;" >En enero, ha salido elegido como la receta del mes, el pastel de choclo, de acuerdo a las votaciones de nuestros seguidores de redes sociales, a lo largo del territorio nacional.</p>
+    </section>
 
-
-        <section>
-            <div class="centrado">
-                <div style="text-align:center;">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lxKV_hajrzI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>    
-            <h1 style="text-align:center;font-size:200%;" >Receta del mes: Pastel de Choclo</h1>
-            <p style="text-align:center;font-size:150%;" >En diciembre, ha salido elegido como la receta del mes, el pastel de choclo, de acuerdo a las votaciones de nuestros seguidores de redes sociales, a lo largo del territorio nacional.</p>
-            </div>
-        
-        </section>
+        <!-- ----------------------Footer--------------------------- -->
     <footer>
         <h3>Síguenos en nuestras redes sociales</h3>
         <div class="rrss">

@@ -12,7 +12,14 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Great Vibes', cursive;
+  font-family: caveat, satisfy;
+}
+
+body h1 {
+  padding-top: 4vh;
+  text-align: center;
+  font-family: satisfy;
+  font-size: xx-large;
 }
 
 header {
@@ -109,6 +116,7 @@ header nav a:hover {
   text-align: center;
 }
 
+/* -------------------------banner------------------ */
 .banner {
   margin: auto;
   max-width: 1900px;
@@ -200,9 +208,9 @@ header nav a:hover {
   border-radius: 100%;
 }
 
+/* --------------------recetas----------------- */
 .contenedor1 {
-  padding-left: 3em;
-  padding-right: 3em;
+  padding: 3em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -214,10 +222,12 @@ header nav a:hover {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  font-family: satisfy;
 }
 
 .caja1 {
   max-width: 25%;
+  height: 100%;
   margin-top: 1em;
   padding: 1em;
   font-size: 12pt;
@@ -241,15 +251,96 @@ header nav a:hover {
   max-width: 90%;
   background-color: #FFFFFF;
   padding: 1em;
-  border: solid #5a5a5a 1px;
+  border: solid 1px #B1A7A6;
   border-radius: 0.3em;
-  font-family: Geneva, Tahoma, sans-serif;
+  font-family: caveat;
   font-weight: 600;
-  font-size: 10pt;
+  font-size: 12pt;
   -webkit-box-shadow: 3px 3px 3px #B1A7A6;
           box-shadow: 3px 3px 3px #B1A7A6;
 }
 
+.caja1 h2 {
+  text-align: center;
+}
+
+/* -------------Tradiciones------------- */
+.tradiciones {
+  background-color: #660708;
+}
+
+.tradiciones .tabla {
+  padding: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tradiciones .tradicion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: xx-large;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.tradiciones .tradicion p {
+  margin: 2vw;
+}
+
+.tradiciones img {
+  height: 100%;
+  width: auto;
+}
+
+.tradiciones h1 {
+  color: #FFFFFF;
+}
+
+/* -------------Receta del Mes---------- */
+.recetadelmes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recetadelmes p {
+  font-size: xx-large;
+}
+
+.recetadelmes iframe {
+  width: 50vw;
+  height: 30vw;
+}
+
+/* ---------------Footer---------------- */
 footer {
   background-color: #660708;
   width: 100%;
@@ -386,7 +477,7 @@ footer .rrss img {
   padding: 1vw;
   border: solid 2px black;
   border-radius: 2px;
-  background-color: #d3aaab;
+  background-color: #A4161A;
 }
 
 .formulario form p {
@@ -398,5 +489,39 @@ footer .rrss img {
 .aviso {
   font-family: kaushan script;
   padding-left: 4vw;
+}
+
+/* Paginas recetas */
+.centrado {
+  padding: 0 3em 3em 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.centrado iframe {
+  height: 50vh;
+  width: 50vw;
+}
+
+.centrado .texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.centrado .texto li {
+  font-size: 16pt;
 }
 /*# sourceMappingURL=main.css.map */
